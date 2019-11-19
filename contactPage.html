@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+  </head>
+  <body>
+      <!--We need a way to navigate back to home and other tabs-->
+    <h1>Contact Page</h1>
+    <p>Welcome to the Contact Page! Send us a message using the form below. </p>
+
+    <div class="contactForm">
+      <form class="contactForm" >
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" >
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" >
+
+        <label for="email">Email</label>
+        <input type="text" name="email" >
+
+        <label for="typeOfComment">Type of Comment</label>
+        <select id="typeOfComment" name="typeOfComment">
+          <option value="Comment">Comment</option>
+          <option value="Complaint">Complaint</option>
+          <option value="somethingOnTheSiteIsBroken">Something on the site is broken</option>
+        </select>
+
+        <label for="Message">Message</label>
+        <textarea name="message" placeholder="Write something..."></textarea>
+      </form>
+    </div>
+      <!--insert the social media icon bar-->
+  </body>
+</html>
