@@ -1,0 +1,8 @@
+/*These are the main selectors on the Contact Page*/
+input[type=text],select, textarea {
+  border-radius: 4px; /*nice round borders*/
+  border-radius: 1px solid
+  box-sizing: border-box; /*keeps width & padding in place*/
+  padding: 12px;
+  resize: vertical;
+}
