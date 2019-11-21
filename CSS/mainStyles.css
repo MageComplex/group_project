@@ -3,3 +3,9 @@ img{
   width: 100px;
   height: 100px;
 }
+
+
+table img {
+  width: 32px;
+  height: 32px;
+}
