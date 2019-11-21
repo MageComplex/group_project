@@ -10,12 +10,12 @@ input[type=text],select, textarea {
   padding: 12px;
 }
 input:focus, select:focus, textarea:focus {
-  border: 4px solid #FFB805;
+  border: 4px solid #B82601;
 }
 
 /*submit button*/
 input[type=submit] {
-  background-color: #FFB805;
+  background-color: #B82601;
   color: black;
   padding: 12px 20px;
   border: none;
@@ -25,7 +25,7 @@ input[type=submit] {
 
 /*submit button when you hover over it*/
 input[type=submit]:hover {
-  background-color: #cc9200;
+  background-color: #981f01;
 }
 
 .contactForm {
