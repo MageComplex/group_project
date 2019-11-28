@@ -1,0 +1,14 @@
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+#OpenerText{
+
+}
+
+.img-circle {
+  border-radius: 80px;
+  width: 200px;
+  height: 200px;
+}
