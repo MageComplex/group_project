@@ -1,25 +1,25 @@
-.align-items-center{
+#landingPage .align-items-center{
   -ms-flex-align:center;
   align-items:center;
 }
 
-.d-flex{
+#landingPage .d-flex{
   display: -ms-flexbox;
   display: flex;
 }
 
-.pictureButtons img {
+#landingPage .pictureButtons img {
   border-radius: 80%;
   width: 300px;
   height: 300px;
 }
 
-.pictureButtons {
+#landingPage .pictureButtons {
   padding: 3em;
   padding-top: 0em;
 }
 
-.btn-circle.btn-xl {
+#landingPage .btn-circle.btn-xl {
   width: 90px;
   height: 90px;
   padding: 10px 16px;
@@ -28,11 +28,11 @@
   text-align: center;
 }
 
-.contactBar{
+#landingPage .contactBar{
   padding-top: 3em;
 }
 
-.contactBar img{
+#landingPage .contactBar img{
   width: 90px;
   height: 90px;
 }

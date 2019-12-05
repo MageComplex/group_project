@@ -1,3 +1,6 @@
+
+@import url("mainStyles.css");
+
 body{
   color: rgb(70,70,70)
 }
@@ -6,7 +9,8 @@ div {
     border: thin dashed red;
 }
 
-h1 {font-family:Brush Script MT;
+h1 {
+  font-family:Brush Script MT;
   font-size:8em;
   text-align:center;
   min-height:10vh;
@@ -54,7 +58,6 @@ li{
 p{font-size:1.8em;
   text-align: center;
   margin:20px;
-  font-family: calibri bold;
 }
 
 img.crop  {
@@ -65,8 +68,7 @@ img.crop  {
 body {
     background-image: url("retro.jpg");
     background-attachment:fixed;
-/*Center and scale the image nicely*/
-background-position: center;
+    background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
   }
