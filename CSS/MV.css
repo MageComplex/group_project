@@ -1,0 +1,72 @@
+body{
+  color: rgb(70,70,70)
+}
+
+div {
+    border: thin dashed red;
+}
+
+h1 {font-family:Brush Script MT;
+  font-size:8em;
+  text-align:center;
+  min-height:10vh;
+  width:199vh;
+  background:orange;
+  margin:10px;
+}
+
+h2 {font-family: candara light;
+  text-align: center;
+  margin-left: 200vh;
+  font-size: 2em;
+  margin: 20px;
+  margin-left: 15px;
+  width: 197vh;
+  height: 2vh;
+  border: wavy medium red;
+  padding: 20px;
+}
+
+.line h2{
+  text-align:center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin:30auto;
+  border-radius: 40px;
+  padding:20px;
+}
+
+ol{
+  font-size:1.2em;
+  height:10%;
+  margin-left: 15px;
+}
+
+li{
+  font-size:1.2em;
+}
+
+p{font-size:1.8em;
+  text-align: center;
+  margin:20px;
+  font-family: calibri bold;
+}
+
+img.crop  {
+  width:100px;
+  height:100px;
+}
+
+body {
+    background-image: url("retro.jpg");
+    background-attachment:fixed;
+/*Center and scale the image nicely*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
