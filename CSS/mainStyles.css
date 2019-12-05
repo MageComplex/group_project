@@ -10,8 +10,8 @@
 
 .pictureButtons img {
   border-radius: 80%;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 
 }
 
@@ -20,6 +20,20 @@
   padding-top: 0em;
 }
 
-.Contact_btn{
-  
+.btn-circle.btn-xl {
+  width: 90px;
+  height: 90px;
+  padding: 10px 16px;
+  border-radius: 65px;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.contactBar{
+  padding-top: 3em;
+}
+.contactBar img{
+  width: 90px;
+  height: 90px;
 }
