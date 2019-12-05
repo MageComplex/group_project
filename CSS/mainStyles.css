@@ -1,15 +1,21 @@
 .align-items-center{
-  -ms-flex-align:center!important;
-  align-items:center!important;
+  -ms-flex-align:center;
+  align-items:center;
 }
 
 .d-flex{
-  display: -ms-flexbox!important;
-  display: flex!important;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .pictureButtons img {
   border-radius: 80%;
+  width: 200px;
+  height: 200px;
+
 }
 
-.i
+.pictureButtons {
+  padding: 3em;
+  padding-top: 0em;
+}
