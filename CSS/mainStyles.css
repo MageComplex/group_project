@@ -20,6 +20,11 @@
   padding-top: 0em;
 }
 
-.Contact_btn{
-  
+.btn-circle.btn-xl {
+  width: 140px;
+  height: 140px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
 }
