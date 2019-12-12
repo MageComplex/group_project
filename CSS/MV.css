@@ -9,7 +9,7 @@ body {
 background-repeat: no-repeat;
 background-size: cover;
   }
-  
+
 body{
   color: rgb(70,70,70)
 }
@@ -64,6 +64,7 @@ p{
   font-size:1.8em;
   text-align: center;
   margin:20px;
+  margin-left: 140px;
 }
 
 img.crop  {
