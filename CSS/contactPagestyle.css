@@ -40,3 +40,14 @@
   margin: 20px;
   position:relative;
 }
+
+.btn-circle.btn-xl {
+  width: 90px;
+  height: 90px;
+  padding: 10px 16px;
+  border-radius: 65px;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  margin-left: 450px;
+}
