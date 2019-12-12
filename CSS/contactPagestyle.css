@@ -1,20 +1,22 @@
-.contactPageOpener{
+ .contactPageOpener{
   text-align: center;
+  background:orange;
 }
 
 /*These are the main selectors on the Contact Page*/
-input[type=text],select, textarea {
+#contactPage input[type=text],select, textarea {
   border-radius: 4px; /*nice round borders*/
   border-radius: 1px solid
   box-sizing: border-box; /*keeps width & padding in place*/
   padding: 12px;
 }
-input:focus, select:focus, textarea:focus {
+
+#contactPage input:focus, select:focus, textarea:focus {
   border: 4px solid #B82601;
 }
 
 /*submit button*/
-input[type=submit] {
+#contactPage input[type=submit] {
   background-color: #B82601;
   color: black;
   padding: 12px 20px;
@@ -24,18 +26,17 @@ input[type=submit] {
 }
 
 /*submit button when you hover over it*/
-input[type=submit]:hover {
+#contactPage input[type=submit]:hover {
   background-color: #981f01;
 }
 
-.contactForm {
+#contactPage .contactForm {
   display: flex;
   flex-direction: column;
   text-align: center;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #ffdd99;
   padding: 20px;
   margin: 20px;
   position:relative;
-
 }
