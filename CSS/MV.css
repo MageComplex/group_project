@@ -5,10 +5,6 @@ body{
   color: rgb(70,70,70)
 }
 
-div {
-    border: thin dashed red;
-}
-
 h1 {
   font-family:Brush Script MT;
   font-size:8em;
@@ -19,7 +15,8 @@ h1 {
   margin:10px;
 }
 
-h2 {font-family: candara light;
+h2 {
+  font-family: candara light;
   text-align: center;
   margin-left: 200vh;
   font-size: 2em;
@@ -27,7 +24,6 @@ h2 {font-family: candara light;
   margin-left: 15px;
   width: 197vh;
   height: 2vh;
-  border: wavy medium red;
   padding: 20px;
 }
 
@@ -55,7 +51,8 @@ li{
   font-size:1.2em;
 }
 
-p{font-size:1.8em;
+p{
+  font-size:1.8em;
   text-align: center;
   margin:20px;
 }
@@ -66,9 +63,9 @@ img.crop  {
 }
 
 body {
-    background-image: url("retro.jpg");
-    background-attachment:fixed;
-    background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url("retro.jpg");
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
