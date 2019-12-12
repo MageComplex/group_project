@@ -1,14 +1,3 @@
-
-@import url("mainStyles.css");
-
-body {
-    background-image: url("retro.jpg");
-    background-attachment:fixed;
-    background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-  
 body{
   color: rgb(70,70,70)
 }
@@ -17,13 +6,12 @@ div {
     border: thin dashed red;
 }
 
-h1 {
-  font-family:Brush Script MT;
+h1 {font-family:Brush Script MT;
   font-size:8em;
   text-align:center;
   min-height:10vh;
   width:199vh;
-  background:orange;
+  background:lightblue;
   margin:10px;
 }
 
@@ -66,9 +54,26 @@ li{
 p{font-size:1.8em;
   text-align: center;
   margin:20px;
+  font-family: calibri bold;
 }
 
 img.crop  {
   width:100px;
   height:100px;
 }
+
+body {
+    background-image: url(".jpg");
+    background-attachment:fixed;
+/*Center and scale the image nicely*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
+
+  #Placestovisit h1{
+    border: thick red dotted ;
+  }
+  #Placestovisit div {
+    border: none;
+  }
