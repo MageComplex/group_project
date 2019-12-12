@@ -1,31 +1,21 @@
-
-@import url("mainStyles.css");
-@import url("contactPagestyle.css");
-
-body {
-    background-image: url("retro.jpg");
-    background-attachment:fixed;
-    background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-  }
-  
 body{
   color: rgb(70,70,70)
 }
 
-h1 {
-  font-family:Brush Script MT;
+div {
+    border: thin dashed red;
+}
+
+h1 {font-family:Brush Script MT;
   font-size:8em;
   text-align:center;
   min-height:10vh;
   width:199vh;
-  background:orange;
+  background:lightblue;
   margin:10px;
 }
 
-h2 {
-  font-family: candara light;
+h2 {font-family: candara light;
   text-align: center;
   margin-left: 200vh;
   font-size: 2em;
@@ -33,6 +23,7 @@ h2 {
   margin-left: 15px;
   width: 197vh;
   height: 2vh;
+  border: wavy medium red;
   padding: 20px;
 }
 
@@ -60,24 +51,29 @@ li{
   font-size:1.2em;
 }
 
-p{
-  font-size:1.8em;
+p{font-size:1.8em;
   text-align: center;
   margin:20px;
+  font-family: calibri bold;
 }
 
 img.crop  {
   width:100px;
   height:100px;
 }
-<<<<<<< HEAD
-=======
 
 body {
-  background-image: url("retro.jpg");
-  background-attachment:fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(".jpg");
+    background-attachment:fixed;
+/*Center and scale the image nicely*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
   }
->>>>>>> bce3c84856a362ee154b23baba96a4261e62b9db
+
+  #Placestovisit h1{
+    border: thick red dotted ;
+  }
+  #Placestovisit div {
+    border: none;
+  }
