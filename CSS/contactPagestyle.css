@@ -1,5 +1,6 @@
-#contactPage .contactPageOpener{
+ .contactPageOpener{
   text-align: center;
+  background:orange;
 }
 
 /*These are the main selectors on the Contact Page*/
