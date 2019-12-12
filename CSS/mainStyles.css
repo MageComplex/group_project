@@ -3,6 +3,10 @@
   align-items:center;
 }
 
+#landingPage .jumbotron {
+  background: #ffdd99;
+}
+
 #landingPage .d-flex{
   display: -ms-flexbox;
   display: flex;
