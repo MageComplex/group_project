@@ -6,6 +6,10 @@
 #landingPage .jumbotron {
   background: #ffdd99;
 }
+h1{
+  text-align: center;
+  margin-left: 30px;
+}
 
 #landingPage .d-flex{
   display: -ms-flexbox;
@@ -42,7 +46,7 @@
 }
 
 #landingPage body {
-  align: center;
+  align: left;
 }
 
 #landingPage h2{
